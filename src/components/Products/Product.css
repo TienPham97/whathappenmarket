@@ -25,7 +25,12 @@
     flex: 1;
 }
 
-.proItem a {
+.proImg img {
+    width: 100%;
+    height: 100%;
+}
+
+.proName {
     width: 100%;
     margin-top: 1.5vw;
     font-family: MontserratBold;
