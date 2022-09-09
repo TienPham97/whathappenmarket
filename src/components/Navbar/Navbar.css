@@ -1,0 +1,125 @@
+.navbar {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: var(--black-two);
+    display: flex;
+    font-size: 16px;
+}
+
+.logo {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 40%;
+    min-width: 300px;
+    padding-left: 97px;
+}
+
+.menu {
+    font-size: 1em;
+    flex: 1;
+    align-items: center;
+    display: flex;
+    text-transform: uppercase;
+    padding-right: 50px;
+}
+
+.menu ul {
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+.menu ul li {
+    flex: 1;
+    text-align: center;
+}
+
+.menu ul li a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+.menu ul li a:hover {
+    color: var(--bright-orange);
+    text-decoration: none;
+}
+
+.btnMenu {
+    display: none;
+    flex-direction: column;
+    height: 100%;
+    width: 60px;
+    position: absolute;
+    padding: 0 10px 10px 10px;
+    left: 0;
+}
+
+.btnMenu  .btnMenuLine{
+    border-bottom: 2px solid var(--white);
+    flex: 1;
+}
+
+.mobileMenu {
+    width: 50vw;
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    background-color: var(--black-two);
+    bottom: -205px;
+    left: 0px;
+}
+
+.mobileMenu a{
+    text-decoration: none;
+    color: var(--white);
+    text-transform: uppercase;
+    padding: 10px;
+    font-size: 1.6em;
+}
+
+.mobileMenu a:hover{
+    color: var(--bright-orange);
+    background-color: var(--white);
+}
+
+.btnMenu:hover .mobileMenu {
+    display: flex;
+}
+
+@media (max-width: 1400px) {
+    .navbar {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .btnMenu {
+        display: flex;
+    }
+
+    .btnMenu:hover {
+        background-color: var(--bright-orange);
+    }
+
+    .btnMenu:hover .mobileMenu {
+        display: flex;
+    }
+
+    .navbar .logo img {
+        padding-left: 0;
+        min-width: 150px;
+    }
+
+    .logo {
+        justify-content: center;
+    }
+
+    .menu {
+        display: none;
+    }
+}

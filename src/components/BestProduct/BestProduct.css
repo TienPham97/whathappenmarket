@@ -1,0 +1,148 @@
+.bestProduct {
+    width: 100%;
+    background-image: url("../../../public/img/bes-bg.png");
+    padding-bottom: 5vw;
+    background-repeat: no-repeat;
+    font-size: 16px;
+}
+
+.bstProText {
+    display: flex;
+    flex-direction: column;
+}
+
+.bstProTitle {
+    text-transform: uppercase;
+    width: 100%;
+    height: 37px;
+    margin: 150px auto 49px auto;
+    font-family: MontserratBold;
+    font-size: 3em;
+    line-height: 1.2;
+    letter-spacing: 5px;
+    text-align: center;
+    color: var(--bright-orange);
+}
+
+.bstProContent {
+    width: 60%;
+    height: 52px;
+    margin: 0 auto;
+    font-family: MontserratRegular;
+    font-size: 1em;
+    line-height: 1.6;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--bright-orange);
+}
+
+.bstProContainer {
+    display: flex;
+    width: 82%;
+    height: 30vw;
+    margin: 74px auto;
+}
+
+.bstProContainer div {
+    flex: 1;
+}
+
+#bstProItem1 {
+    background: url("../../../public/img/best-image-01.png");
+    position: relative;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+#bstProItem2 {
+    background: url("../../../public/img/best-image-02.png");
+    position: relative;
+    background-size: 100% 100%;
+}
+
+#bstProItem3 {
+    background: url("../../../public/img/best-image-03.png");
+    position: relative;
+    background-size: 100% 100%;
+}
+
+.bstProBg {
+    position: relative;
+}
+
+.bstProBg img {
+    position: absolute;
+    top: -2.5vw;
+    width: 20%;
+}
+
+.bstProBg span {
+    font-family: MontserratBold;
+    font-size: 2vw;
+    line-height: 0.83;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--dark-brown);
+    position: absolute;
+    top: -0.7vw;
+    text-decoration: underline;
+}
+
+.bstProBtn {
+    width: 71%;
+    height: 17%;
+    display: flex;
+    align-items: center;
+    border: 3px solid #020001;
+    background: var(--white);
+    /* margin: 363px auto 0 auto; */
+    position: absolute;
+    left: 14.5%;
+    bottom: -8%;
+    justify-content: space-around;
+}
+
+.bstProBtn span {
+    font-family: MontserratExtraBold;
+    padding-left: 1vw;
+    font-size: 1vw;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--black-three);
+    flex: 3;
+}
+
+.bstProBtn img {
+    min-width: 30px;
+    flex: 1;
+    padding-right: 10px;
+    margin: 0.3vw;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .bstProBtn {
+        border: 1px solid #020001;
+    }
+
+    .bestProduct {
+        font-size: 4px;
+        background-size: auto 140%;
+    }
+
+    .bstProTitle {
+        margin: 20px auto 0 auto;
+        font-size: 5em;
+    }
+
+    .bstProContent {
+        width: 90%;
+        font-size: 2.5em;
+    }
+
+    .bstProContainer {
+        margin: 0px auto 10px auto;
+    }
+    
+}

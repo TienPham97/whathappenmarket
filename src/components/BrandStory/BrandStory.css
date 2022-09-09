@@ -1,0 +1,207 @@
+.brandStory {
+    width: 100%;
+    background: var(--cerulean);
+    padding-top: 10vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.brandStoryLine {
+    width: 100%;
+    height: 3px;
+    background-color: var(--black-two);
+}
+
+.brandStoryBgObj {
+    position: absolute;
+    z-index: 1;
+}
+
+#brandStoryObj1 {
+    left: 5vw;
+    top: 19vw;
+    width: 11vw;
+}
+
+#brandStoryObj2 {
+    right: 14vw;
+    top: 6vw;
+    width: 8vw;
+}
+
+#brandStoryObj3 {
+    right: 9vw;
+    top: 7.5vw;
+    width: 9vw;
+}
+
+#brandStoryObj4 {
+    right: -7.5vw;
+    top: 14vw;
+    width: 17.5vw;
+}
+
+#brandStoryObj5 {
+    right: -2vw;
+    top: 38.5vw;
+    width: 23vw;
+}
+
+#brandStoryObj6 {
+    left: 0vw;
+    top: 38vw;
+    width: 7.5vw;
+}
+
+#brandStoryObj7 {
+    left: 7.5vw;
+    top: 40.5vw;
+    width: 7.5vw;
+}
+
+#brandStoryObj8 {
+    top: 51vw;
+}
+
+.brandStoryText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.brandStoryTitle {
+    width: 100%;
+    font-family: MontserratExtraBold;
+    font-size: 3.3vw;
+    line-height: 1.33;
+    letter-spacing: 4.5px;
+    color: var(--sun-yellow);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.brandStoryContent {
+    margin-top: 2vw;
+    width: 60%;
+    font-family: NotoSanThin;
+    font-size: 1.3vw;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--sun-yellow);
+}
+
+.brandStoryWindow {
+    width: 69vw;
+    padding-top: 8vw;
+    z-index: 2;
+    padding-bottom: 12vw;
+    position: relative;
+}
+
+.brandStoryWindow img{
+    width: 100%;
+    height: 100%;
+}
+
+.brandStoryWindowText {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 40%;
+    right: 5%;
+    top: 23%;
+}
+
+.brandStoryWindowTitle {
+    width: 100%;
+    font-family: MontserratExtraBold;
+    font-size: 1.3vw;
+    line-height: 2.4;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--black-three);
+    text-transform: uppercase;
+}
+
+.brandStoryWindowContent {
+    width: 95%;
+    font-family: NotoSanRegular;
+    font-size: 1vw;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--black-three);
+    margin-bottom: 1.5vw;
+}
+
+@media (max-width: 768px) {
+    .brandStoryTitle {
+        font-size: 5vw;
+    }
+
+    .brandStoryContent {
+        font-size: 2.5vw;
+    }
+
+    .brandStoryWindow {
+        width: 93vw;
+    }
+    
+    .brandStoryWindowTitle {
+        font-size: 1.9vw;
+    }
+
+    .brandStoryWindowContent {
+        font-size: 1.3vw;
+    }
+
+    #brandStoryObj1 {
+        left: -5vw;
+        top: 35vw;
+        width: 11vw;
+    }
+    
+    #brandStoryObj2 {
+        right: 14vw;
+        top: 6vw;
+        width: 8vw;
+    }
+    
+    #brandStoryObj3 {
+        right: 9vw;
+        top: 7.5vw;
+        width: 9vw;
+    }
+    
+    #brandStoryObj4 {
+        right: -7.5vw;
+        top: 40vw;
+        width: 17.5vw;
+    }
+    
+    #brandStoryObj5 {
+        right: -2vw;
+        top: 60vw;
+        width: 23vw;
+    }
+    
+    #brandStoryObj6 {
+        left: 0vw;
+        top: 63vw;
+        width: 7.5vw;
+    }
+    
+    #brandStoryObj7 {
+        left: 7.5vw;
+        top: 64vw;
+        width: 7.5vw;
+    }
+    
+    #brandStoryObj8 {
+        top: 66vw;
+    }
+}

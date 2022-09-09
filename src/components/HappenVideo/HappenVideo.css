@@ -1,0 +1,127 @@
+.happenVideo {
+    padding-top: 6vw;
+    width: 100%;
+    background: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    font-size: 16px;
+}
+
+.happenVideoTitle {
+    width: 70%;
+    font-family: MontserratExtraBold;
+    font-size: 3em;
+    line-height: 1.2;
+    letter-spacing: 10px;
+    text-align: center;
+    color: var(--black-two);
+    text-transform: uppercase;
+}
+
+.happenVideoContent {
+    margin-top: 2vw;
+    width: 60%;
+    font-family: MontserratRegular;
+    font-size: 1.7em;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--black-two);
+}
+
+.videoContainer {
+    width: 60%;
+    margin: 4vw auto;
+    z-index: 2;
+}
+
+.videoContainer img{
+    width: 100%;
+    height: 100%;
+}
+
+.happenVideoBgObj {
+    position: absolute;
+}
+
+#happenVideoBgObj1 {
+    top: 70vw;
+    left: 20.5vw;
+    z-index: 1;
+    width: 18.5vw;
+}
+
+#happenVideoBgObj2 {
+    top: 70vw;
+    left: 60vw;
+    width: 4vw;
+}
+
+#happenVideoBgObj3 {
+    top: 65vw;
+    left: 14vw;
+    width: 7.5vw;
+}
+
+#happenVideoBgObj4 {
+    top: 20vw;
+    left: -17.5vw;
+    width: 31vw;
+}
+
+#happenVideoBgObj5 {
+    top: 0;
+    left: 12vw;
+    width: 8vw;
+}
+
+#happenVideoBgObj6 {
+    top: 16vw;
+    right: 15vw;
+    z-index: 2;
+    width: 7vw;
+}
+
+#happenVideoBgObj7 {
+    top: 8vw;
+    right: 7vw;
+    width: 10vw;
+}
+
+#happenVideoBgObj8 {
+    top: 48vw;
+    right: -8.5vw;
+    z-index: 1;
+    width: 31vw;
+}
+
+#happenVideoBgObj9 {
+    top: 33vw;
+    right: -9vw;
+    width: 18vw;
+}
+
+.btnhappenVideoSeeMore {
+    width: 13vw;
+    margin: 3vw auto 0 auto;
+}
+
+.happenVideoLine {
+    margin-top: 15vw;
+    width: 80%;
+    height: 1px;
+    background-color: #f4f4f4;
+}
+
+@media (max-width: 768px) {
+    .happenVideo {
+        font-size: 4px;
+    }
+    
+}

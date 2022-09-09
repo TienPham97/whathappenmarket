@@ -1,0 +1,62 @@
+.product {
+    width: 100%;
+    background: var(--white);
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+}
+
+.listPro {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 1vw auto 0 auto;
+    justify-content: center;
+}
+
+.proItem {
+    display: flex;
+    flex-direction: column;
+    width: 17%;
+    margin: 2vw 1vw;
+}
+
+.proImg {
+    flex: 1;
+}
+
+.proItem a {
+    width: 100%;
+    margin-top: 1.5vw;
+    font-family: MontserratBold;
+    font-size: 1em;
+    line-height: 1.94;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--black-three);
+}
+
+.proDetail {
+    margin-top: 1vw;
+    display: flex;
+    align-items: center;
+}
+
+.proPrice {
+    flex: 5;
+}
+
+.proBtnSeeMore {
+    width: 13vw;
+    margin: 3vw auto 6vw auto;
+}
+
+@media (max-width: 768px) {
+    .proItem {
+        width: 45%;
+    }
+
+    .product {
+        font-size: 18px;
+    }
+}

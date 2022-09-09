@@ -1,0 +1,46 @@
+.introduction {
+    width: 100%;
+    background-image: url("../../../public/img/introduction.png");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+.introContainer {
+    width: 100%;
+    padding-left: 8vw;
+    margin: 9vw auto;
+}
+
+.introTitle {
+    text-transform: uppercase;
+    width: 100%;
+    font-family: MontserratExtraBold;
+    font-size: 3.5em;
+    line-height: 1.2;
+    letter-spacing: 5px;
+    text-align: left;
+    color: var(--white);
+    margin-bottom: 3%;
+}
+
+.introContent {
+    width: 40%;
+    font-family: MontserratRegular;
+    font-size: 1.2em;
+    line-height: 1.75;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--white);
+}
+
+@media (max-width: 768px) {
+    .introduction {
+        font-size: 6px;
+    }
+
+    .introContent {
+        width: 70%;
+    }
+}
