@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.54e8cc72.css",
+    "main.js": "/static/js/main.538af08f.js",
+    "static/media/NotoSansKR-Bold.otf": "/static/media/NotoSansKR-Bold.c252383c4f70753be0e7.otf",
+    "static/media/NotoSansKR-Medium.otf": "/static/media/NotoSansKR-Medium.56207b5e52841342a21b.otf",
+    "static/media/NotoSansKR-Regular.otf": "/static/media/NotoSansKR-Regular.e1aa54c04a18648e6468.otf",
+    "static/media/NotoSansKR-Thin.otf": "/static/media/NotoSansKR-Thin.a3e74b5ef0ed5ab193f5.otf",
+    "static/media/introduction.png": "/static/media/introduction.5188c898c20c5658acf9.png",
+    "static/media/Montserrat-ExtraBold.ttf": "/static/media/Montserrat-ExtraBold.3a9ee100617f45a96d92.ttf",
+    "static/media/Montserrat-Bold.ttf": "/static/media/Montserrat-Bold.2c155811b35513d5beaa.ttf",
+    "static/media/Montserrat-Light.ttf": "/static/media/Montserrat-Light.6fcc9263a21be961d246.ttf",
+    "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.ceb11275ab638627a643.ttf",
+    "static/media/Montserrat-ExtraLight.ttf": "/static/media/Montserrat-ExtraLight.ef3c777f702c89a0f300.ttf",
+    "static/media/best-image-01.png": "/static/media/best-image-01.dc8ef0b40d9aa0471398.png",
+    "static/media/news-img-05.png": "/static/media/news-img-05.246ef1193e6736713407.png",
+    "static/media/news-img-03.png": "/static/media/news-img-03.030b69a6e7992406d322.png",
+    "static/media/best-image-02.png": "/static/media/best-image-02.e8fa441b5f56419cf385.png",
+    "static/media/news-img-04.png": "/static/media/news-img-04.cbcd4187b8a2f8f41338.png",
+    "static/media/best-image-03.png": "/static/media/best-image-03.07801fec0d6cec4a1556.png",
+    "static/media/bes-bg.png": "/static/media/bes-bg.08b8b84fc261d1f48948.png",
+    "index.html": "/index.html",
+    "main.54e8cc72.css.map": "/static/css/main.54e8cc72.css.map",
+    "main.538af08f.js.map": "/static/js/main.538af08f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.54e8cc72.css",
+    "static/js/main.538af08f.js"
+  ]
+}
